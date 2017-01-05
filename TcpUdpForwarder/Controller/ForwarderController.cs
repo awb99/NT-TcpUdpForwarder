@@ -61,6 +61,7 @@ namespace TcpUdpForwarder.Controller
 				server.Stop();
 			}
 			_tcpForwarders=null;
+			
 			if (_udpForwarders != null) foreach ( var server in _udpForwarders){
 				server.Stop();
 			}
@@ -88,10 +89,10 @@ namespace TcpUdpForwarder.Controller
 					//if (_udpForwarder != null)
 					//    _udpForwarder.Stop();
 					
-					foreach ( var server in _tcpForwarders){
+					if (_tcpForwarders != null) foreach ( var server in _tcpForwarders){
 						server.Stop();
 					}
-					foreach ( var server in _udpForwarders){
+					if (_udpForwarders != null) foreach ( var server in _udpForwarders){
 						server.Stop();
 					}
 
