@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<config>
+   
+  
+  <index value="0" />
+  
+  <mgmt_port value="4434" />
+
+  <!-- If Forwarding is enabled generally or not (useful to turn on/off forwarding) -->
+  <enabled value="true" />
+  
+  <!-- forward 8080 to timeanddate.com Note: Since this is not an http forwarder, it will not quite work, but at least 
+       we should see an error message in the browser-->
+  
+  <server server="151.101.1.176" server_port="80" bind_port="8081" />
+  <server server="151.101.1.176" server_port="80" bind_port="8082" />
+  
+  
+</config>

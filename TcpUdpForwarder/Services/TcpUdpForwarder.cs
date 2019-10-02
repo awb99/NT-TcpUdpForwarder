@@ -10,7 +10,7 @@ using TcpUdpForwarder.Controller;
 
 namespace TcpUdpForwarder.Services
 {
-    partial class TcpUdpForwarder : ServiceBase
+    public partial class TcpUdpForwarder : ServiceBase
     {
         ForwarderController controller;
 

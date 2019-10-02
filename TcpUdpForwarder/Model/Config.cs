@@ -135,9 +135,9 @@ namespace TcpUdpForwarder.Model
         {
             return new ServerInfo()
             {
-                server = "104.224.129.11",
-                serverPort = 443,
-                localPort = 443,
+                server = "172.217.22.238",
+                serverPort = 80,
+                localPort = 8080,
             };
         }
 

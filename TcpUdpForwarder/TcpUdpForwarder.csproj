@@ -111,6 +111,10 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="config.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="README.md" />
     <Content Include="Resources\f128.png" />
     <Content Include="Resources\f16.png" />
     <Content Include="Resources\f20.png" />

@@ -14,10 +14,6 @@ namespace TcpUdpForwarder.Controller
 		Config _config;
 		MgmtListener _mgmtServer;
 		
-		//TcpForwarder _tcpForwarder;
-		//UdpForwarder _udpForwarder;
-		
-		
 		List<TcpForwarder> _tcpForwarders;
 		List<UdpForwarder> _udpForwarders;
 		
@@ -46,16 +42,6 @@ namespace TcpUdpForwarder.Controller
 				_mgmtServer.Stop();
 				_mgmtServer = null;
 			}
-			//if (_tcpForwarder != null)
-			//{
-		//		_tcpForwarder.Stop();
-	//			_tcpForwarder = null;
-//			}
-//			if (_udpForwarder != null)
-//			{
-//				_udpForwarder.Stop();
-//				_udpForwarder = null;
-//			}
 			
 			if (_tcpForwarders != null) foreach ( var server in _tcpForwarders){
 				server.Stop();
@@ -84,10 +70,6 @@ namespace TcpUdpForwarder.Controller
 				_config = Config.Load();
 				if (_issvc)
 				{
-					//if (_tcpForwarder != null)
-					//    _tcpForwarder.Stop();
-					//if (_udpForwarder != null)
-					//    _udpForwarder.Stop();
 					
 					if (_tcpForwarders != null) foreach ( var server in _tcpForwarders){
 						server.Stop();
@@ -111,11 +93,6 @@ namespace TcpUdpForwarder.Controller
 						return;
 					
 					//ServerInfo server = GetCurrentServer();
-					
-					//_tcpForwarder = new TcpForwarder(server);
-					//_tcpForwarder.Start();
-					//_udpForwarder = new UdpForwarder(server);
-					//_udpForwarder.Start();
 					
 					_tcpForwarders=new List<TcpForwarder> ();
 					_udpForwarders=new List<UdpForwarder> ();
@@ -190,7 +167,7 @@ namespace TcpUdpForwarder.Controller
 			_mgmt.OnStart += _mgmt_OnStart;
 			_mgmt.OnClose += _mgmt_OnClose;
 			_mgmt.Start();
-			Console.WriteLine("Connet to service management port (127.0.0.1:" + _config.mgmtPort + ")");
+			Console.WriteLine("Connect to service management port (127.0.0.1:" + _config.mgmtPort + ")");
 		}
 
 		public void ReportError(Exception e)

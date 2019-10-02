@@ -13,7 +13,7 @@ namespace TcpUdpForwarder
     class Program
     {
         static bool is_svc = false;
-
+        
         static void Main(string[] args)
         {
             if (args != null && args.Length > 0)
@@ -23,8 +23,9 @@ namespace TcpUdpForwarder
                     if (s == "--svc")
                     {
                         is_svc = true;
-                        break;
+
                     }
+                    
                 }
             }
             //Directory.SetCurrentDirectory(Application.StartupPath);

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="$USER_HOME$/.Rider2018.1/system/resharper-host/local/Transient/ReSharperHost/v12/SolutionCaches/_TcpUdpForwarder.-1098959439.00" t="ExcludeRecursive" />
+    <e p="$PROJECT_DIR$" t="IncludeFlat">
+      <e p="ForwarderService" t="IncludeRecursive">
+        <e p="ForwarderService.csproj" t="IncludeRecursive" />
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+        </e>
+        <e p="README.md" t="Include" />
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="obj" t="ExcludeRecursive" />
+      </e>
+      <e p="TcpUdpForwarder" t="IncludeRecursive">
+        <e p="Controller" t="Include">
+          <e p="ForwarderController.cs" t="Include" />
+          <e p="Logging.cs" t="Include" />
+          <e p="Management.cs" t="Include" />
+          <e p="MgmtListener.cs" t="Include" />
+          <e p="MgmtPipe.cs" t="Include" />
+          <e p="TcpForwarder.cs" t="Include" />
+          <e p="TcpPipe.cs" t="Include" />
+          <e p="UdpForwarder.cs" t="Include" />
+          <e p="UdpPipe.cs" t="Include" />
+        </e>
+        <e p="Model" t="Include">
+          <e p="Config.cs" t="Include" />
+          <e p="ServerInfo.cs" t="Include" />
+        </e>
+        <e p="Program.cs" t="Include" />
+        <e p="Properties" t="Include">
+          <e p="AssemblyInfo.cs" t="Include" />
+          <e p="Resources.Designer.cs" t="Include" />
+          <e p="Resources.resx" t="Include" />
+        </e>
+        <e p="README.md" t="Include" />
+        <e p="Resources" t="Include">
+          <e p="f128.png" t="Include" />
+          <e p="f16.png" t="Include" />
+          <e p="f20.png" t="Include" />
+          <e p="f24.png" t="Include" />
+        </e>
+        <e p="Services" t="Include">
+          <e p="ProjectInstaller.Designer.cs" t="Include" />
+          <e p="ProjectInstaller.cs" t="Include" />
+          <e p="ProjectInstaller.resx" t="Include" />
+          <e p="TcpUdpForwarder.Designer.cs" t="Include" />
+          <e p="TcpUdpForwarder.cs" t="Include" />
+        </e>
+        <e p="TcpUdpForwarder.csproj" t="IncludeRecursive" />
+        <e p="Utils" t="Include">
+          <e p="Utils.cs" t="Include" />
+        </e>
+        <e p="View" t="Include">
+          <e p="ConfigForm.cs" t="Include" />
+          <e p="ConfigForm.designer.cs" t="Include" />
+          <e p="ConfigForm.resx" t="Include" />
+          <e p="SSForwardView.cs" t="Include" />
+        </e>
+        <e p="bin" t="ExcludeRecursive" />
+        <e p="config.xml" t="Include" />
+        <e p="install.bat" t="Include" />
+        <e p="obj" t="ExcludeRecursive" />
+        <e p="uninstall.bat" t="Include" />
+      </e>
+      <e p="TcpUdpForwarder.sln" t="IncludeFlat" />
+      <e p="packages" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>
